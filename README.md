@@ -64,8 +64,7 @@ Loaded CSV using My_sql's import feature.
 If you're not able to use the import feature, write this code instead:
 
     ```copy zepto(category,name,mrp,discountPercent,availableQuantity,
-            discountedSellingPrice,weightInGms,outOfStock,quantity)
-  FROM 'data/zepto_v2.csv' WITH (FORMAT csv, HEADER true, DELIMITER ',', QUOTE '"', ENCODING 'UTF8'); ```
+            discountedSellingPrice,weightInGms,outOfStock,quantity) FROM 'data/zepto_v2.csv' WITH (FORMAT csv, HEADER true, DELIMITER ',', QUOTE '"', ENCODING 'UTF8'); ```
 
 
 3. 🔍 Data Exploration
