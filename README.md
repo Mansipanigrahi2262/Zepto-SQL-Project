@@ -43,7 +43,7 @@ Here’s a step-by-step breakdown of what we do in this project:
 1. Database & Table Creation
 We start by creating a SQL table with appropriate data types:
 
-''' create database zepto_project ;
+\\\ create database zepto_project ;
 use zepto_project ;
 create table zepto (
 sku_id serial primary key ,
@@ -55,7 +55,7 @@ availableQuantity int ,
 descountedSellingPrice numeric(8,2) ,
 weightInGms int ,
 outOfStock varchar(5),
-quantity int ) ; '''  sql
+quantity int ) ; \\\  sql
 
 Data Import
 Loaded CSV using My_sql's import feature.
