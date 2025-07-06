@@ -103,21 +103,6 @@ Grouped products based on weight into Low, Medium, and Bulk categories
 Measured total inventory weight per product category
 
 
-This file contains:
-
-Table creation
-
-Data exploration
-
-Data cleaning
-
-SQL Business analysis
-
-Load the dataset into my sql .
-
-Create a database and run the SQL file
-
-Import the dataset (convert to UTF-8 if necessary)
 
 🙋‍♀ About Me
 
