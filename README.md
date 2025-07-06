@@ -42,7 +42,8 @@ Here’s a step-by-step breakdown of what we do in this project:
 
 1. Database & Table Creation
 We start by creating a SQL table with appropriate data types:
-create database zepto_project ;
+
+''' create database zepto_project ;
 use zepto_project ;
 create table zepto (
 sku_id serial primary key ,
@@ -54,7 +55,7 @@ availableQuantity int ,
 descountedSellingPrice numeric(8,2) ,
 weightInGms int ,
 outOfStock varchar(5),
-quantity int 
+quantity int ) ; '''  sql
 
 Data Import
 Loaded CSV using My_sql's import feature.
@@ -118,4 +119,8 @@ Load the dataset into my sql .
 Create a database and run the SQL file
 
 Import the dataset (convert to UTF-8 if necessary)
+
+🙋‍♀ About Me
+
+I’m currently exploring data analytics and SQL development, and this project reflects my interest in real-world business data problems. Feel free to connect or suggest improvements!
 
