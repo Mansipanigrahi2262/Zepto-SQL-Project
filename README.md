@@ -57,7 +57,7 @@ weightInGms int ,
 outOfStock varchar(5),
 quantity int ) ; ```
 
-Data Import
+2 . Data Import
 Loaded CSV using My_sql's import feature.
 
 If you're not able to use the import feature, write this code instead:
