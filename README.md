@@ -55,7 +55,7 @@ availableQuantity int ,
 descountedSellingPrice numeric(8,2) ,
 weightInGms int ,
 outOfStock varchar(5),
-quantity int ) ; ```
+quantity int );  ```
 
 2 . Data Import
 Loaded CSV using My_sql's import feature.
